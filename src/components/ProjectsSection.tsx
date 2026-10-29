@@ -9,11 +9,11 @@ const PROJECTS = [
     category: "Full-Stack / React",
     name: "Shopify E-Commerce Store",
     description: "A fully responsive e-commerce web store featuring product catalogs, interactive cart management, filter systems, and smooth checkout flows.",
-    liveUrl: "https://novastore-ecommerce-app.netlify.app/", // Replace with your actual Netlify URL
+    liveUrl: "https://novastore-ecommerce-app.netlify.app/",
     images: {
-      col1Img1: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1000&auto=format&fit=crop", // Storefront catalog
-      col1Img2: "https://images.unsplash.com/photo-1556742049-0a67d5e56d77?q=80&w=1000&auto=format&fit=crop", // Checkout & payment UI
-      col2Img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",  // E-commerce dashboard
+      col1Img1: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1000&auto=format&fit=crop",
+      col1Img2: "https://images.unsplash.com/photo-1556742049-0a67d5e56d77?q=80&w=1000&auto=format&fit=crop",
+      col2Img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
     }
   },
   {
@@ -21,11 +21,11 @@ const PROJECTS = [
     category: "Web Application",
     name: "Job Tracking Application",
     description: "A streamlined job application tracker enabling users to log interviews, track statuses (Applied, Interviewing, Offered), and manage career pipelines.",
-    liveUrl: "https://job-application-developer.netlify.app/", // Replace with your actual Netlify URL
+    liveUrl: "https://job-application-developer.netlify.app/",
     images: {
-      col1Img1: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop", // Kanban board
-      col1Img2: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop", // Analytics & stats
-      col2Img: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop", // Workflow dashboard
+      col1Img1: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop",
+      col1Img2: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop",
+      col2Img: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop",
     }
   },
   {
@@ -33,11 +33,11 @@ const PROJECTS = [
     category: "JavaScript & CSS",
     name: "Advanced Calculator",
     description: "A clean, responsive, and precise client-side calculator built with vanilla JavaScript supporting complex arithmetic operations and history logs.",
-    liveUrl: "https://aniketverma1403-sudo.github.io/calculator-App/", // Replace with your actual Netlify URL
+    liveUrl: "https://aniketverma1403-sudo.github.io/calculator-App/",
     images: {
-      col1Img1: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1000&auto=format&fit=crop", // Number / Financial UI
-      col1Img2: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop", // Data interface
-      col2Img: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=1200&auto=format&fit=crop", // Clean computation UI
+      col1Img1: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1000&auto=format&fit=crop",
+      col1Img2: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+      col2Img: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=1200&auto=format&fit=crop",
     }
   },
   {
@@ -45,11 +45,23 @@ const PROJECTS = [
     category: "HTML, CSS, JS",
     name: "Music Player App",
     description: "An immersive web-based audio player featuring custom playback controls, live track progress sliders, album art display, and playlist navigation.",
-    liveUrl: "https://your-music-player.netlify.app", // Replace with your actual Netlify URL
+    liveUrl: "https://music-player999.netlify.app/",
     images: {
-      col1Img1: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1000&auto=format&fit=crop", // Audio setup
-      col1Img2: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1000&auto=format&fit=crop", // Live concert / track vibes
-      col2Img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1200&auto=format&fit=crop", // Music player dashboard
+      col1Img1: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1000&auto=format&fit=crop",
+      col1Img2: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1000&auto=format&fit=crop",
+      col2Img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1200&auto=format&fit=crop",
+    }
+  },
+  {
+    number: "05",
+    category: "UI/UX & Frontend",
+    name: "Psychologist Website",
+    description: "A professional, empathetic, and calming mental health landing page designed for booking consultations, reading wellness resources, and patient care guidance.",
+    liveUrl: "https://landingpage99999.netlify.app/",
+    images: {
+      col1Img1: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1000&auto=format&fit=crop",
+      col1Img2: "https://images.unsplash.com/photo-1573497619932-f8d09d7f6b06?q=80&w=1000&auto=format&fit=crop",
+      col2Img: "https://images.unsplash.com/photo-1527137342181-19aab17a8ee8?q=80&w=1200&auto=format&fit=crop",
     }
   }
 ];
